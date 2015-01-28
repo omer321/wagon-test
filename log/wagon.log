@@ -830,3 +830,5 @@ Detecting locale EN
 [0;32;49mCompleted 404 Not Found in 2.1ms
 
 [0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-01-28 13:06:59 -0800
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-01-28 13:07:01 -0800
