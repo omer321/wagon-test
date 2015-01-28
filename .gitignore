@@ -1,2 +1,2 @@
-deploy.yml
-log/
+/config/deploy.yml
+/log/*.log
