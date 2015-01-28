@@ -1,0 +1,832 @@
+# Logfile created on 2015-01-21 16:01:47 -0800 by logger.rb/1.2.8
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:02:18 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/locomotive" at 2015-01-21 16:03:31 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:04:55 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-21 16:05:00 -0800
+[0;97;49mStarted GET "/" at 2015-01-21 16:05:01 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2015-01-21 16:05:05 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:05:06 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.0ms
+
+[0m
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:05:50 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:05:50 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-01-21 16:16:34 -0800
+[Locomotive::Mounter::Models::Site] setting an unknown attribute 'welcome_message' with the value '"baaaaaam"'
+[Locomotive::Mounter::Models::Site] setting an unknown attribute 'welcome_message' with the value '"baaaaaam"'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:403:in `_run__2214328956648962739__initialize__2650731070247770711__callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `new'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:282:in `call'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:282:in `_process_changes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:229:in `loop'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:229:in `_wait_for_changes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+[0;97;49mStarted GET "/" at 2015-01-21 16:16:38 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:16:39 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:16:39 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:16:39 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-21 16:17:13 -0800
+[0;97;49mStarted GET "/" at 2015-01-21 16:17:15 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:17:16 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:17:16 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:17:18 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-21 16:17:24 -0800
+[0;97;49mStarted GET "/" at 2015-01-21 16:17:25 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-21 16:17:35 -0800
+* Reloaded "pages", "snippets" at 2015-01-21 16:17:38 -0800
+[Locomotive::Mounter::Models::Site] setting an unknown attribute 'welcome_message' with the value '"baaaaaam"'
+[Locomotive::Mounter::Models::Site] setting an unknown attribute 'welcome_message' with the value '"baaaaaam"'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:403:in `_run__1549517845792500706__initialize__2395420084260925493__callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `new'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:261:in `require_mounter'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/bin/wagon:12:in `<top (required)>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `load'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `<main>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+
+
+[Locomotive::Mounter::Models::Site] setting an unknown attribute 'welcome_message' with the value '"baaaaaam"'
+[Locomotive::Mounter::Models::Site] setting an unknown attribute 'welcome_message' with the value '"baaaaaam"'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:403:in `_run__2906037488820699490__initialize__1034977293118031865__callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/activesupport-3.2.21/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `new'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:261:in `require_mounter'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/bin/wagon:12:in `<top (required)>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `load'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `<main>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+
+
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-01-21 16:31:43 -0800
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:31:59 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-21 16:41:02 -0800
+[Locomotive::Mounter::Models::Page] setting an unknown attribute 'welcome_message' with the value '"boooooyaaaa"'
+[Locomotive::Mounter::Models::Page] setting an unknown attribute 'welcome_message' with the value '"boooooyaaaa"'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:146:in `set_attributes_from_header'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:87:in `block (2 levels) in fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:86:in `block in fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:282:in `call'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:282:in `_process_changes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:229:in `loop'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:229:in `_wait_for_changes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/listen-2.7.12/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+[0;97;49mStarted GET "/" at 2015-01-21 16:41:50 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:41:52 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:41:52 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:41:53 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 0.9ms
+
+[0m
+[Locomotive::Mounter::Models::Page] setting an unknown attribute 'welcome_message' with the value '"boooooyaaaa"'
+[Locomotive::Mounter::Models::Page] setting an unknown attribute 'welcome_message' with the value '"boooooyaaaa"'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:146:in `set_attributes_from_header'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:87:in `block (2 levels) in fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:86:in `block in fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:261:in `require_mounter'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/bin/wagon:12:in `<top (required)>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `load'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `<main>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+
+
+[Locomotive::Mounter::Models::Page] setting an unknown attribute 'foo' with the value '"boooooyaaaa"'
+[Locomotive::Mounter::Models::Page] setting an unknown attribute 'foo' with the value '"boooooyaaaa"'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:146:in `set_attributes_from_header'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:87:in `block (2 levels) in fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:86:in `block in fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_mounter-1.5.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:261:in `require_mounter'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/gems/locomotivecms_wagon-1.5.1/bin/wagon:12:in `<top (required)>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `load'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/wagon:23:in `<main>'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+	/Users/okhawaja/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+
+
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:42:46 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:42:47 -0800[0m
+Detecting locale EN
+Found page "Welcome to Acme" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-21 16:52:04 -0800
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 16:52:04 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-21 17:21:18 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.6ms
+
+[0m
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 10:52:11 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.9ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-01-22 10:59:33 -0800
+[0;97;49mStarted GET "/" at 2015-01-22 10:59:38 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 10:59:38 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.0ms
+
+[0m
+The API key is invalid. (401)
+unable to get an API token: The API key is invalid. (401)
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:13:50 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:13:51 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:13:51 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:13:52 -0800[0m
+Detecting locale EN
+Found page "wagonnnn" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.1ms
+
+[0m
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:14:25 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:14:25 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.7ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:14:25 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/favicon" at 2015-01-22 11:14:26 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-22 11:28:45 -0800
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:39:56 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:39:56 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:39:56 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.7ms
+
+[0m
+[0;97;49mStarted GET "/_admin" at 2015-01-22 11:40:01 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:40:01 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:40:01 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/_admin" at 2015-01-22 11:40:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:40:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:40:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:40:30 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.2ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:40:30 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:40:30 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:40:31 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:40:31 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.0ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:40:31 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 11:40:32 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:40:32 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:40:32 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.3ms
+
+[0m
+[0;97;49mStarted GET "/_admin" at 2015-01-22 11:40:36 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 11:40:36 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 11:40:36 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 12:37:55 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 12:37:55 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.3ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 12:37:56 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-22 14:41:21 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-22 14:41:22 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-22 14:41:22 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/_admin" at 2015-01-23 15:06:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 10.0ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:06:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:06:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/favicon" at 2015-01-23 15:06:17 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.0ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2015-01-23 15:15:06 -0800
+* Reloaded "pages", "snippets" at 2015-01-23 15:15:06 -0800
+[0;97;49mStarted GET "/_admin" at 2015-01-23 15:15:19 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:15:19 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:15:19 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-23 15:15:21 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:15:21 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:15:21 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-23 15:17:01 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:17:01 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:17:01 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-01-23 15:19:51 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:19:52 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:19:52 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;31;49m[Important] YUICompressor requires java to be installed. The JAVA_HOME variable should also be set.
+[0m
+[0;97;49mStarted GET "/" at 2015-01-23 15:20:08 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.6ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:20:08 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:20:08 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-23 15:21:20 -0800
+[0;97;49mStarted GET "/" at 2015-01-23 15:21:22 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:21:22 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:21:23 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-23 15:21:27 -0800
+[0;97;49mStarted GET "/" at 2015-01-23 15:21:27 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:21:27 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:21:27 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-23 15:21:43 -0800
+[0;97;49mStarted GET "/" at 2015-01-23 15:21:43 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:21:44 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:21:44 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-23 15:21:51 -0800
+* Reloaded "pages", "snippets" at 2015-01-23 15:21:52 -0800
+[0;97;49mStarted GET "/" at 2015-01-23 15:21:54 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:21:54 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:21:54 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-23 15:22:08 -0800
+[0;97;49mStarted GET "/" at 2015-01-23 15:22:08 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:22:08 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:22:08 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-01-23 15:22:14 -0800
+[0;97;49mStarted GET "/" at 2015-01-23 15:22:14 -0800[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.woff" at 2015-01-23 15:22:15 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/sites/54c002cfc81447270b000002/theme/fonts/glyphicons-halflings-regular.ttf" at 2015-01-23 15:22:15 -0800[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.1ms
+
+[0m

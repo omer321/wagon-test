@@ -1,0 +1,21 @@
+---
+title: Page not found
+is_layout: false
+listed: false
+published: true
+cache_strategy: none
+response_type: text/html
+position: 100
+editable_elements:
+  "/sample_title": "<a href=\"http://\"><b>\r\n                Default&nbsp;Content\r\n
+    \             </b></a>"
+---
+{% extends index %}
+
+{% block 'main' %}
+
+<div class="jumbotron">
+  <h1>Arrggggh, page not found</h1>
+</div>
+
+{% endblock %}
